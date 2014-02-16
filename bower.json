@@ -1,0 +1,22 @@
+{
+  "name": "Laravel Louisville Meetup",
+  "version": "0.0.0",
+  "homepage": "https://github.com/laravel-louisville/meetup",
+  "authors": [
+    "Troy Harvey <tharvey@indatus.com>",
+    "Eric Rowan <erowan@indatus.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.0",
+    "bourbon": "~3.1.8",
+    "neat": "~1.5.0"
+  }
+}

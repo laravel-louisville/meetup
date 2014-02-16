@@ -6,31 +6,50 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
+        <script type="text/javascript" src="//use.typekit.net/qhc5afv.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/main.css">
-
+        <link rel="stylesheet" href="assets/stylesheets/css/main.css">
+    
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          </div>
+        <section class="hero">
 
-          {{ content }}
+            <h1 class="page-title"><a href="/">{{ site.name }}</a></h1>
+            <h6 class="page-subtitle">Feb 19<span class="divider"></span>6 PM<span class="divider"></span>iHub</h6>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                <a href="http://www.meetup.com/laravel-louisville">meetup.com/laravel-louisville</a><br />
-                <a href="https://github.com/laravel-louisville">github.com/laravel-louisville</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+        </section>
+
+        <section class="page-wrapper">
+
+            <article class="intro">
+                <h4 class="pitch">You spent your entire day in front of a computer making things. Come out and join some other humans in Louisville who do the same thing.</h4>
+                <p><strong>Who we are</strong></p>
+                <p>We're a group of web developers and PHP programmers who enjoy building software with the Laravel framework. The goal of Laravel Louisville is to help build the software engineering community in Louisville by teaching each other how to write quality software in PHP.</p>
+            </article>
+
+
+            <article class="page">
+
+                {{ content }}
+                
+            </article>
+
+            <footer class="main">
+            
+                <p>
+                    <a href="http://www.meetup.com/laravel-louisville">meetup.com/laravel-louisville</a> | 
+                    <a href="https://github.com/laravel-louisville">github.com/laravel-louisville</a>
+                </p>
+            
+            </footer><!--/ main -->
+
+        </section><!--/ page-wrapper-->
 
     </body>
 </html>

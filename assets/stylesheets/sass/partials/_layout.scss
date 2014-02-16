@@ -1,0 +1,61 @@
+// Structure
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+section {
+    @include row();
+    &:not(.page-wrapper):not(.hero):not(.full-width) {
+        @extend article;
+    }
+    &.full-width {
+        @include pad(8em);
+    }
+}
+
+article {
+    @include outer-container;
+    @include pad(2em);
+    border-bottom: 1px solid $gray-lt;
+}
+
+.page-wrapper {
+    @include outer-container;
+    padding: 0;
+    background: white;
+}
+
+.outset-center {
+    margin: 2em -4em;
+}
+
+.intro {
+    .pitch {
+        color: darken($gray-lt, 25%);
+    }
+}
+
+.page {
+    ul.schedule {
+        padding: 0;
+        list-style-type: none;
+        margin: em(5) 0;
+
+        li {
+            padding: em(10) 0;
+        }
+        li:not(:last-child) {
+            border-bottom: 1px solid $gray-lt;
+        }
+    
+        .time {
+            color: darken($gray-lt, 25%);
+        }
+    }
+}
