@@ -1,0 +1,36 @@
+// Hero
+
+.hero {
+    @include pad(8em 2em);
+    background: $laravel-dk url("../../images/hero-background.jpg") bottom center no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    .page-title {
+        font-size: 6em;
+        font-weight: 400;
+        margin-bottom: 0;
+        text-shadow: 0 0 2px darken($laravel-dk, 20%);
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
+    .page-subtitle {
+        margin-top: 0;
+        color: $white;
+        opacity: 0.75;
+        &:before {
+            content: "";
+            display: block;
+            width: em(80);
+            margin: 1em auto;
+            border-top: 2px solid $white;
+        }                    
+    }
+
+    .divider {
+        margin: 0 0.5em;
+    }
+}
