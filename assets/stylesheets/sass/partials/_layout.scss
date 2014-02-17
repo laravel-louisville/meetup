@@ -19,7 +19,6 @@ section {
 article {
     @include outer-container;
     @include pad(2em);
-    border-bottom: 1px solid $gray-lt;
 }
 
 .page-wrapper {

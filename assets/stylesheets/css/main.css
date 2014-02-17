@@ -20,6 +20,9 @@
 
 footer.main {
   padding: 1em 2em;
+  color: #f1f1f1;
+  text-align: right;
+  margin-top: 2em;
   border-top: 1px solid #f1f1f1; }
 
 .fat-button {
@@ -57,11 +60,14 @@ footer.main {
 
 .hero {
   padding: 4em 2em 6em;
-  background: #f26663 url("../../images/hero-background.jpg") bottom center no-repeat;
-  background-size: cover;
+  background: #f26663;
   text-align: center; }
+  @media screen and (min-width: 481px) {
+    .hero {
+      background: #f26663 url("../../images/hero-background.jpg") bottom center no-repeat;
+      background-size: cover; } }
   .hero .page-title {
-    font-size: 6em;
+    font-size: 4.5em;
     line-height: 1;
     font-weight: 100;
     margin-bottom: 0;
@@ -69,6 +75,9 @@ footer.main {
     .hero .page-title a {
       color: white;
       text-decoration: none; }
+    @media screen and (min-width: 481px) {
+      .hero .page-title {
+        font-size: 6em; } }
   .hero .page-subtitle {
     margin-top: 0;
     color: white;
@@ -81,6 +90,25 @@ footer.main {
       border-top: 2px solid white; }
   .hero .divider {
     margin: 0 0.5em; }
+  .hero .btn {
+    border: 2px solid white; }
+    @media screen and (min-width: 481px) {
+      .hero .btn {
+        border: none; } }
+
+.github-ribbon {
+  padding: 0.5em 1em;
+  color: white;
+  font-size: 1em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  text-decoration: none;
+  opacity: 0.5; }
+  .github-ribbon:hover {
+    color: white;
+    opacity: 0.75; }
 
 body {
   margin: 0; }
@@ -103,8 +131,7 @@ article, section:not(.page-wrapper):not(.hero):not(.full-width) {
   max-width: 50em;
   margin-left: auto;
   margin-right: auto;
-  padding: 2em;
-  border-bottom: 1px solid #f1f1f1; }
+  padding: 2em; }
   article:before, section:not(.full-width):not(.hero):not(.page-wrapper):before, article:after, section:not(.full-width):not(.hero):not(.page-wrapper):after {
     content: " ";
     display: table; }
@@ -170,6 +197,9 @@ body {
   line-height: 1.5;
   font-weight: 300;
   color: #444444; }
+  @media screen and (min-width: 769px) {
+    body {
+      font-size: 14.75px; } }
   @media screen and (min-width: 481px) {
     body {
       font-size: 16px; } }

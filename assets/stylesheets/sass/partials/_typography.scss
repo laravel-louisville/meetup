@@ -11,6 +11,10 @@ body {
     font-weight: 300;
     color: $gray-dk;
 
+    @include media(769px) {
+        font-size: 14.75px;            
+    }
+
     @include media(481px) {
         font-size: 16px;            
     }

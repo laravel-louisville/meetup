@@ -2,5 +2,8 @@
 
 footer.main {
     @include pad(1em 2em);
+    color: $gray-lt;
+    text-align: right;
+    margin-top: 2em;
     border-top: 1px solid $gray-lt;
 }
