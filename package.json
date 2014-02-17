@@ -1,0 +1,26 @@
+{
+  "name": "laravel-louisville-meetup",
+  "version": "0.0.0",
+  "description": "Homepage of the [Laravel Louisville Meetup](git@github.com:laravel-louisville/meetup.git). Anyone is welcome to join in and update the agenda, please just send us a Pull Request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/laravel-louisville/meetup.git"
+  },
+  "author": "Troy Harvey <tharvey@indatus.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laravel-louisville/meetup/issues"
+  },
+  "homepage": "https://github.com/laravel-louisville/meetup",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-sass": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.5.0"
+  }
+}

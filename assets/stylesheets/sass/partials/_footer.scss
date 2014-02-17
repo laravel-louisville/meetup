@@ -1,0 +1,6 @@
+// Footer
+
+footer.main {
+    @include pad(1em 0);
+    border-top: 1px solid $gray-lt;
+}

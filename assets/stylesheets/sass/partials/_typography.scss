@@ -1,0 +1,35 @@
+// Typography
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "promia-nova",sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: $gray-dk;
+}
+
+a {
+    color: $laravel-dk;
+    &:hover {
+        color: darken($laravel-dk, 20%);
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+    strong {
+        font-weight: 600;
+    }
+
+}
+
+h1 { font-size: 3em; }
+h2 { font-size: 2.5em; }
+h3 { font-size: 2.25em; }
+h4 { font-size: 2em; }
+h5 { font-size: 1.75em; }
+h6 { font-size: 1.5em; }
