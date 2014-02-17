@@ -14,9 +14,6 @@ section {
     &:not(.page-wrapper):not(.hero):not(.full-width) {
         @extend article;
     }
-    &.full-width {
-        @include pad(8em);
-    }
 }
 
 article {
@@ -28,7 +25,6 @@ article {
 .page-wrapper {
     @include outer-container;
     padding: 0;
-    background: white;
 }
 
 .outset-center {
@@ -36,26 +32,43 @@ article {
 }
 
 .intro {
+    @include pad(0 2em);
+    background: $gray-lt;
     .pitch {
-        color: darken($gray-lt, 25%);
+        text-align: center;
+        color: $laravel-lt;
+
+        @include media(481px) {
+            @include span-columns(8);
+            @include shift(2);
+        }
+    
     }
 }
 
 .page {
+    .section-title {
+        margin-bottom: 0;
+        &:before, &:after {
+            content: "\2014";
+            display: block;
+            font-weight: 100;
+            color: $gray-lt;
+        }
+    }
     ul.schedule {
         padding: 0;
         list-style-type: none;
-        margin: em(5) 0;
-
+        margin: 0 0 2em;
         li {
             padding: em(10) 0;
         }
         li:not(:last-child) {
             border-bottom: 1px solid $gray-lt;
-        }
-    
+        }    
         .time {
             color: darken($gray-lt, 25%);
+            margin-right: 0.5em;
         }
     }
 }

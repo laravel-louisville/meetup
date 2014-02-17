@@ -1,0 +1,21 @@
+// Buttons 
+
+
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-size: 1.5em;
+    background: $laravel-dk;
+    border: none;
+    color: $white;
+    border-radius: em(5);
+    text-decoration: none;
+    &:hover {
+        background: darken($laravel-dk, 2.5%);
+        color: $white;
+    }
+    &:active {
+        background: darken($laravel-dk, 5%);
+    }
+}

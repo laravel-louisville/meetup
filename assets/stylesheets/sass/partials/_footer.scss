@@ -1,6 +1,6 @@
 // Footer
 
 footer.main {
-    @include pad(1em 0);
+    @include pad(1em 2em);
     border-top: 1px solid $gray-lt;
 }
