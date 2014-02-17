@@ -1,0 +1,8 @@
+.fat-button {
+  @include button(simple, $laravel-dk);
+  font-size: 24px;
+
+  &:hover:not(:disabled) {
+    color: hsl(0, 0, 100%);
+  }
+}

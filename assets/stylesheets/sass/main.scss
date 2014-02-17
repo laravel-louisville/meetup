@@ -1,5 +1,6 @@
 // Import Bourbon & Neat
 @import "../../../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../../../bower_components/bourbon/app/assets/stylesheets/addons/button";
 
 @import "partials/grid-settings";
 @import "../../../bower_components/neat/app/assets/stylesheets/neat";
@@ -10,7 +11,7 @@
 //@import "partials/breakpoints";
 //@import "partials/buttons";
 @import "partials/footer";
-//@import "partials/forms";
+@import "partials/forms";
 //@import "partials/general";
 //@import "partials/header";
 @import "partials/hero";
