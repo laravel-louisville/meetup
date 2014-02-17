@@ -5,11 +5,15 @@ html {
 }
 
 body {
-    font-family: "promia-nova",sans-serif;
-    font-size: 14px;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 13.5px;
     line-height: 1.5;
     font-weight: 300;
     color: $gray-dk;
+
+    @include media(481px) {
+        font-size: 16px;            
+    }
 }
 
 a {
@@ -20,7 +24,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 100;
+    font-weight: 300;
     strong {
         font-weight: 600;
     }
