@@ -1,6 +1,6 @@
 # Laravel Louisville Website
-** A website for the monthly meetup group: **
 
+**A website for the monthly meetup group:**
 
 [laravel-louisville.github.io/meetup](http://laravel-louisville.github.io/meetup/)
 
