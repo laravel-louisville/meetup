@@ -6,7 +6,7 @@
 
 ### Dependencies
 
-** Ensure the following are installed globally, along with any dependencies: **
+**Ensure the following are installed globally, along with any dependencies:**
 
 1. [Bower](http://bower.io/)
 2. [Grunt](http://gruntjs.com/getting-started)
@@ -21,7 +21,7 @@
 5. Install Grunt dependencies: ``` npm install ```
 6. Run ``` jekyll serve ``` to view site locally at [http://0.0.0.0:4000/](http://0.0.0.0:4000/)
 7. Run ``` grunt ``` to compile CSS, JS, etc. after any changes*
-8. ``` jekyll build ``` to build out __sites_ folder*
+8. ``` jekyll build ``` to build out _sites folder*
 
 ### To-do
 
