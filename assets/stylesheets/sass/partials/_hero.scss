@@ -2,12 +2,15 @@
 
 .hero {
     @include pad(4em 2em 6em);
-    background: $laravel-dk url("../../images/hero-background.jpg") bottom center no-repeat;
-    background-size: cover;
+    background: $laravel-dk;
     text-align: center;
+    @include media(481px) {
+        background: $laravel-dk url("../../images/hero-background.jpg") bottom center no-repeat;
+        background-size: cover;
+    }    
 
     .page-title {
-        font-size: 6em;
+        font-size: 4.5em;
         line-height: 1;
         font-weight: 100;
         margin-bottom: 0;
@@ -16,6 +19,9 @@
             color: $white;
             text-decoration: none;
         }
+        @include media(481px) {
+            font-size: 6em;
+        }    
     }
 
     .page-subtitle {
@@ -33,5 +39,29 @@
 
     .divider {
         margin: 0 0.5em;
+    }
+
+    .btn {
+        border: 2px solid $white;
+        @include media(481px) {
+                border: none;
+        }    
+    }
+        
+}
+
+.github-ribbon {
+    padding: 0.5em 1em;
+    color: $white;
+    font-size: 1em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    text-decoration: none;
+    opacity: 0.5;
+    &:hover {
+        color: $white;
+        opacity: 0.75;
     }
 }
