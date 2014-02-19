@@ -6,6 +6,7 @@
 .btn {
   display: inline-block;
   padding: 0.5em 1.5em;
+  margin: 0 0.25em;
   font-size: 1.5em;
   background: #f26663;
   border: none;
@@ -80,8 +81,7 @@ footer.main {
         font-size: 6em; } }
   .hero .page-subtitle {
     margin-top: 0;
-    color: white;
-    opacity: 0.75; }
+    color: white; }
     .hero .page-subtitle:before {
       content: "";
       display: block;
