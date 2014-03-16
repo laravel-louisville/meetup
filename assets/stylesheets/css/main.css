@@ -188,6 +188,9 @@ article, section:not(.page-wrapper):not(.hero):not(.full-width) {
     color: #b1b1b1;
     margin-right: 0.5em; }
 
+aside.meetup {
+  text-align: center; }
+
 html {
   font-size: 100%; }
 
