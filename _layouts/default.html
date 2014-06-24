@@ -23,7 +23,7 @@
         <section class="hero">
 
             <h1 class="page-title"><a href="/meetup">{{ site.name }}</a></h1>
-            <h6 class="page-subtitle">Our next meetup is <strong>May 21st</strong> at <strong>6 PM</strong> at <strong>iHub</strong></h6>
+            <h6 class="page-subtitle">Our next meetup is <strong>{{ site.next_meetup | date: "%b %-d" }}</strong> at <strong>6 PM</strong> at <strong>iHub</strong></h6>
             <a class="btn" href="http://www.meetup.com/Laravel-Louisville">Join us!</a>
             <a class="btn" href="http://www.twitter.com/lurvul">@Lurvul</a>
 
