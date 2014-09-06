@@ -2,4 +2,4 @@ name: Laravel Louisville
 markdown: redcarpet
 pygments: true
 exclude: [node_modules, package.json, Gruntfile.js, bower.json, bower_components, npm-debug.log]
-next_meetup: 2014-09-05
+next_meetup: 2014-09-24
