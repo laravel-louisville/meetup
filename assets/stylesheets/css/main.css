@@ -180,9 +180,9 @@ article, section:not(.page-wrapper):not(.hero):not(.full-width) {
   padding: 0;
   list-style-type: none;
   margin: 0 0 2em; }
-  .page ul.schedule li {
+  .page ul.schedule > li {
     padding: 0.625em 0; }
-  .page ul.schedule li:not(:last-child) {
+  .page ul.schedule > li:not(:last-child) {
     border-bottom: 1px solid #f1f1f1; }
   .page ul.schedule .time {
     color: #b1b1b1;
